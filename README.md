@@ -28,7 +28,7 @@ yarn install
 
 ```sh
 bundle install
-bundle exec pod install
+cd ios && bundle exec pod install && cd ..
 ```
 
 ## Running the app
